@@ -2,9 +2,54 @@
   "RSpec": {
     "coverage": {
       "/home/patient-server-4714/tic-tac-toe-rb-online-web-sp-000/lib/tic_tac_toe.rb": [
-
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        null,
+        null,
+        1,
+        3,
+        null,
+        null,
+        1,
+        3,
+        null,
+        null,
+        1,
+        11,
+        8,
+        3,
+        3,
+        null,
+        null,
+        null,
+        null,
+        1,
+        3,
+        2,
+        0,
+        2,
+        1,
+        null,
+        null
       ]
     },
-    "timestamp": 1568802352
+    "timestamp": 1568802400
   }
 }
