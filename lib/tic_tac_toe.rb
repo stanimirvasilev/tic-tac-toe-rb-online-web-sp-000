@@ -102,7 +102,7 @@ def draw?(board)
    end
  end
  
- def play
+ def play(board)
    turn (board)
    until over?(board) 
    turn (board)
