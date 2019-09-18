@@ -107,7 +107,7 @@ def draw?(board)
    turn (board)
    end
    if won?(board)
-     winner(board) 
+     puts "Congratulations #{winner(board)}!"  
    elsif draw?(board)
    draw?(board)
    end
