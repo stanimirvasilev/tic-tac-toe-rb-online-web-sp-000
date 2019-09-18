@@ -90,3 +90,7 @@ def full?(board)
 def draw?(board)
    full?(board) && !won?(board)
  end
+ 
+ def over?(board) 
+  draw?(board) || won?(board)
+ end
