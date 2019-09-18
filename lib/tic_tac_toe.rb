@@ -104,7 +104,12 @@ def draw?(board)
  
  def play
    until over?(board) 
-   puts "Please enter X or O"
+   turn (board)
+   end
+   if won?(board)
+     winner(board) 
+   elsif draw?(board)
+   draw?(board)
    end
  end
  
