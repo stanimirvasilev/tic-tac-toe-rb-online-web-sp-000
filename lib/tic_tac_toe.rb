@@ -10,6 +10,18 @@ WIN_COMBINATIONS = [
   ]
   
   # Helper Method
+  
+  def current_player(board)
+  if turn_count(board).even? 
+    return "X"
+    else 
+    return "O"
+  end
+end 
+  
+  
+  
+  
 def position_taken?(board, index)
   !(board[index].nil? || board[index] == " ")
 end
