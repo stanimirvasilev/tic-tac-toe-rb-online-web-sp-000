@@ -102,3 +102,9 @@ def draw?(board)
    end
  end
  
+ def play
+   until over?(board) 
+   puts "Please enter X or O"
+   end
+ end
+ 
