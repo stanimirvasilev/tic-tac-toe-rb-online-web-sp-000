@@ -26,6 +26,10 @@ end
 def move(board, index, player = "X")
 board[index] = player
 end
+
+def position_taken?(board, index)
+  !(board[index].nil? || board[index] == " ")
+end
   
   def current_player(board)
   if turn_count(board).even? 
@@ -50,9 +54,7 @@ end
 
   
   
-def position_taken?(board, index)
-  !(board[index].nil? || board[index] == " ")
-end
+
 
 def won?(board)
   WIN_COMBINATIONS.detect do |win_combination|
