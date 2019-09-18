@@ -86,7 +86,6 @@ end
  end
  
  def winner(board) 
-   #binding.pry
    win_combination = won?(board)
    if won?(board) 
     board[win_combination[0]]
