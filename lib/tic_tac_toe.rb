@@ -93,6 +93,7 @@ def draw?(board)
  
  def over?(board) 
   draw?(board) || won?(board)
+ end
  
  def winner(board) 
    win_combination = won?(board)
@@ -100,4 +101,4 @@ def draw?(board)
     board[win_combination[0]]
    end
  end
- end
+ 
